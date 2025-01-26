@@ -1,0 +1,124 @@
+Task T21 started on Core 1 in Subsystem 1
+Time: 1, Subsystem 1 State:
+Task T31 started on Core 1 in Subsystem 2
+Resources: R1: 1, R2: 0
+Task T32 started on Core 2 in Subsystem 2
+Task T33 started on Core 3 in Subsystem 2
+Time: 1, Subsystem 2 State:
+Resources: R1: 0, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T31', 'T32', 'T33']
+==============================
+Waiting Queue: []
+Ready Queue: ['T22']
+Cores: ['T21', 'Idle', 'Idle']
+==============================
+Time: 2, Subsystem 2 State:
+Time: 2, Subsystem 1 State:
+Resources: R1: 0, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T31', 'T32', 'T33']
+==============================
+Resources: R1: 1, R2: 0
+Waiting Queue: []
+Ready Queue: ['T22']
+Cores: ['T21', 'Idle', 'Idle']
+==============================
+Task T33 completed in Subsystem 2
+Time: 3, Subsystem 2 State:
+Resources: R1: 1, R2: 2
+Waiting Queue: []
+Time: 3, Subsystem 1 State:
+Ready Queue: []
+Resources: R1: 1, R2: 0
+Waiting Queue: []
+Ready Queue: ['T22']
+Cores: ['T21', 'Idle', 'Idle']
+==============================
+Cores: ['T31', 'T32', 'Idle']
+==============================
+Time: 4, Subsystem 1 State:
+Resources: R1: 1, R2: 0
+Task T32 completed in Subsystem 2
+Waiting Queue: []
+Time: 4, Subsystem 2 State:
+Resources: R1: 2, R2: 3
+Waiting Queue: []
+Ready Queue: ['T22']
+Cores: ['T21', 'Idle', 'Idle']
+==============================
+Ready Queue: []
+Cores: ['T31', 'Idle', 'Idle']
+==============================
+Time: 5, Subsystem 1 State:
+Resources: R1: 1, R2: 0
+Waiting Queue: []
+Time: 5, Subsystem 2 State:
+Resources: R1: 2, R2: 3
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T31', 'Idle', 'Idle']
+==============================
+Ready Queue: ['T22']
+Cores: ['T21', 'Idle', 'Idle']
+==============================
+Subsystem 1 State at Time 5:
+Resources: R1: 1, R2: 0
+Subsystem 2 State at Time 5:
+Resources: R1: 2, R2: 3
+Subsystem 3 State at Time 0:
+Resources: R1: 5, R2: 6
+Time: 6, Subsystem 2 State:
+Resources: R1: 2, R2: 3
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T31', 'Idle', 'Idle']
+==============================
+Task T21 completed in Subsystem 1
+Task T22 started on Core 1 in Subsystem 1
+Time: 6, Subsystem 1 State:
+Resources: R1: 2, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T22', 'Idle', 'Idle']
+==============================
+Task T31 completed in Subsystem 2
+Time: 7, Subsystem 2 State:
+Resources: R1: 4, R2: 5
+Waiting Queue: []
+Ready Queue: []
+Cores: ['Idle', 'Idle', 'Idle']
+==============================
+Time: 7, Subsystem 1 State:
+Resources: R1: 2, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T22', 'Idle', 'Idle']
+==============================
+Time: 8, Subsystem 1 State:
+Resources: R1: 2, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T22', 'Idle', 'Idle']
+==============================
+Time: 9, Subsystem 1 State:
+Resources: R1: 2, R2: 1
+Waiting Queue: []
+Ready Queue: []
+Cores: ['T22', 'Idle', 'Idle']
+==============================
+Task T22 completed in Subsystem 1
+Time: 10, Subsystem 1 State:
+Resources: R1: 3, R2: 3
+Waiting Queue: []
+Ready Queue: []
+Cores: ['Idle', 'Idle', 'Idle']
+==============================
+Subsystem 1 State at Time 10:
+Resources: R1: 3, R2: 3
+Subsystem 2 State at Time 7:
+Resources: R1: 4, R2: 5
+Subsystem 3 State at Time 0:
+Resources: R1: 5, R2: 6
